@@ -1,10 +1,10 @@
 "use client";
 import { Button, Form, Input, message } from "antd";
 
-interface FormValues {
+type FormValues = {
   username: string;
   password: string;
-}
+};
 
 export default function Login() {
   const onFinish = (values: FormValues) => {
