@@ -1,0 +1,26 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100,
+      "tasks": [
+        {
+          "id": "1",
+          "title": "a title"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200,
+      "tasks": [
+        {
+          "id": "2",
+          "title": "another title"
+        }
+      ]
+    }
+  ]
+}

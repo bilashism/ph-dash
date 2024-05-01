@@ -1,0 +1,31 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.fontSize": 18,
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "html",
+    "typescript": "html",
+    "typescriptreact": "html",
+    "css": "css"
+  },
+  "emojisense.languages": {
+    "typescript": false,
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true
+  },
+  "cSpell.words": ["Notyf", "SQSP", "squarespace"]
+}
