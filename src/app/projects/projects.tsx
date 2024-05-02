@@ -1,9 +1,11 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { getProjects } from "./page";
 import ProjectCard from "@/components/ProjectCard";
-
+import { Project } from "@/types/globals";
+export const getProjects = async (): Promise<Project[]> => {
+  return fetch("http://localhost:3001/projects").then(res => res.json());
+};
 export default function Projects() {
   const { data } = useQuery({ queryKey: ["projects"], queryFn: getProjects });
   return (
