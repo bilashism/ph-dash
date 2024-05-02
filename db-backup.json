@@ -1,0 +1,217 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "Description for Project 1",
+      "tasks": [
+        {
+          "id": 1,
+          "projectId": 1,
+          "title": "Task 1",
+          "description": "Description for Task 1",
+          "status": "To Do",
+          "dueDate": "2024-05-10",
+          "assignedMembers": [
+            {
+              "id": 1,
+              "name": "John Doe",
+              "email": "john@example.com",
+              "role": "Developer"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "projectId": 1,
+          "title": "Task 2",
+          "description": "Description for Task 2",
+          "status": "In Progress",
+          "dueDate": "2024-05-15",
+          "assignedMembers": [
+            {
+              "id": 2,
+              "name": "Jane Doe",
+              "email": "jane@example.com",
+              "role": "Designer"
+            }
+          ]
+        }
+      ],
+      "teamMembers": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john@example.com",
+          "role": "Developer"
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "email": "jane@example.com",
+          "role": "Designer"
+        },
+        {
+          "id": 3,
+          "name": "Alice Smith",
+          "email": "alice@example.com",
+          "role": "Manager"
+        }
+      ],
+      "recentActivities": [
+        {
+          "id": 1,
+          "projectId": 1,
+          "description": "Task 1 was completed",
+          "timestamp": "2024-05-05T10:00:00Z"
+        },
+        {
+          "id": 2,
+          "projectId": 1,
+          "description": "Task 2 was assigned to Jane Doe",
+          "timestamp": "2024-05-07T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "description": "Description for Project 2",
+      "tasks": [
+        {
+          "id": 3,
+          "projectId": 2,
+          "title": "Task 3",
+          "description": "Description for Task 3",
+          "status": "To Do",
+          "dueDate": "2024-05-12",
+          "assignedMembers": [
+            {
+              "id": 3,
+              "name": "Alice Smith",
+              "email": "alice@example.com",
+              "role": "Manager"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "projectId": 2,
+          "title": "Task 4",
+          "description": "Description for Task 4",
+          "status": "In Progress",
+          "dueDate": "2024-05-18",
+          "assignedMembers": [
+            {
+              "id": 2,
+              "name": "Jane Doe",
+              "email": "jane@example.com",
+              "role": "Designer"
+            }
+          ]
+        }
+      ],
+      "teamMembers": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john@example.com",
+          "role": "Developer"
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "email": "jane@example.com",
+          "role": "Designer"
+        },
+        {
+          "id": 3,
+          "name": "Alice Smith",
+          "email": "alice@example.com",
+          "role": "Manager"
+        }
+      ],
+      "recentActivities": [
+        {
+          "id": 3,
+          "projectId": 2,
+          "description": "Task 3 was assigned to Alice Smith",
+          "timestamp": "2024-05-09T09:00:00Z"
+        },
+        {
+          "id": 4,
+          "projectId": 2,
+          "description": "Task 4 was started by Jane Doe",
+          "timestamp": "2024-05-10T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "description": "Description for Project 3",
+      "tasks": [
+        {
+          "id": 1,
+          "projectId": 1,
+          "title": "Task 1",
+          "description": "Description for Task 1",
+          "status": "To Do",
+          "dueDate": "2024-05-10",
+          "assignedMembers": [
+            {
+              "id": 1,
+              "name": "John Doe",
+              "email": "john@example.com",
+              "role": "Developer"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "projectId": 1,
+          "title": "Task 2",
+          "description": "Description for Task 2",
+          "status": "In Progress",
+          "dueDate": "2024-05-15",
+          "assignedMembers": [
+            {
+              "id": 2,
+              "name": "Jane Doe",
+              "email": "jane@example.com",
+              "role": "Designer"
+            }
+          ]
+        }
+      ],
+      "teamMembers": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "email": "john@example.com",
+          "role": "Developer"
+        },
+        {
+          "id": 2,
+          "name": "Jane Doe",
+          "email": "jane@example.com",
+          "role": "Designer"
+        }
+      ],
+      "recentActivities": [
+        {
+          "id": 1,
+          "projectId": 1,
+          "description": "Task 1 was completed",
+          "timestamp": "2024-05-05T10:00:00Z"
+        },
+        {
+          "id": 2,
+          "projectId": 1,
+          "description": "Task 2 was assigned to Jane Doe",
+          "timestamp": "2024-05-07T12:00:00Z"
+        }
+      ]
+    }
+  ]
+}
